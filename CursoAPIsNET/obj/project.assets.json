@@ -3736,11 +3736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
+      "projectUniqueName": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
       "projectName": "CursoAPIsNET",
-      "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
+      "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
       "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\obj\\",
+      "outputPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

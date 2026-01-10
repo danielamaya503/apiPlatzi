@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\platzi\\cursoapisnet\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\platzi\\cursoapisnet\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T03:04:31.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -63,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskItemService.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\TaskItemService.cs",
               "RelativeDocumentMoniker": "Services\\TaskItemService.cs",
-              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\TaskItemService.cs*",
-              "RelativeToolTip": "Services\\TaskItemService.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAABRAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\TaskItemService.cs",
+              "RelativeToolTip": "Services\\TaskItemService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCUAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T02:49:17.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "20260106020402_initialcreate.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Migrations\\20260106020402_initialcreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260106020402_initialcreate.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CursoAPIsNET.http",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\CursoAPIsNET.http",
               "RelativeDocumentMoniker": "CursoAPIsNET.http",
@@ -128,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TaskItemController.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Controllers\\TaskItemController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskItemController.cs",
@@ -141,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserControllers.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Controllers\\UserControllers.cs",
               "RelativeDocumentMoniker": "Controllers\\UserControllers.cs",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ITaskItemService.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\Services\\ITaskItemService.cs",
               "RelativeDocumentMoniker": "Services\\ITaskItemService.cs",

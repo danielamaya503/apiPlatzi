@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gG1z/vEIV/Y=",
+  "dgSpecHash": "dEvV5pWUJeY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
+  "projectFilePath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
