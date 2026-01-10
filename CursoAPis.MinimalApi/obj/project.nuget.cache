@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ejqTFxnGrvk=",
+  "dgSpecHash": "Zji4bpglopg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
+  "projectFilePath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.1\\microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
     "C:\\Users\\aleja\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj": {}
+    "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj": {
+    "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
+        "projectUniqueName": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
         "projectName": "CursoAPis.MinimalApi",
-        "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
+        "projectPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\CursoAPis.MinimalApi.csproj",
         "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\Platzi\\CursoAPis.MinimalApi\\obj\\",
+        "outputPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPis.MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
