@@ -23,6 +23,7 @@ builder.Services.AddControllers();
 
 //Agregar el contexto de la base de datos
 //Agregaremos el servicio de DbContext para la aplicación
+//para que pueda interactuar con la base de datos SQL Server
 builder.Services.AddDbContext<AppDbContext>(option => {
     //Obtener la cadena de conexión desde el archivo de configuración
     //Configuration es una propiedad del objeto builder que proporciona acceso a la configuración de la aplicación
