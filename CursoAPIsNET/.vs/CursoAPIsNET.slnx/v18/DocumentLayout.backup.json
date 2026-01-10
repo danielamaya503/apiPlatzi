@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7B83495-357B-4A32-9851-05C0E7E12323}|..\\CursoAPIsNET.ViewModels\\CursoAPIsNET.ViewModels.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet.viewmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7EAAC4C-912E-48E2-9414-E0FD2EA76569}|..\\CursoAPIsNET.Models\\CursoAPIsNET.Models.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet.models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68799A5A-3A20-4806-B4B6-B0503C0461B4}|..\\CursoAPIsNET.Interfaces\\CursoAPIsNET.Interfaces.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet.interfaces\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1E57970-17E1-412A-BAAA-D774BDAFB25F}|..\\CursoAPIsNET.Concretes\\CursoAPIsNET.Concretes.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet.concretes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\migrations\\20260106020402_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:migrations\\20260106020402_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +63,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.ViewModels\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CursoAPIsNET.ViewModels\\Class1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.ViewModels\\Class1.cs",
+              "RelativeToolTip": "..\\CursoAPIsNET.ViewModels\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:56:52.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Models\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CursoAPIsNET.Models\\Class1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Models\\Class1.cs",
+              "RelativeToolTip": "..\\CursoAPIsNET.Models\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:56:27.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Interfaces\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CursoAPIsNET.Interfaces\\Class1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Interfaces\\Class1.cs",
+              "RelativeToolTip": "..\\CursoAPIsNET.Interfaces\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:56:12.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Concretes\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CursoAPIsNET.Concretes\\Class1.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET.Concretes\\Class1.cs",
+              "RelativeToolTip": "..\\CursoAPIsNET.Concretes\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:55:55.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20260106020402_initialcreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Migrations\\20260106020402_initialcreate.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20260106020402_initialcreate.Designer.cs",
               "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Migrations\\20260106020402_initialcreate.Designer.cs",
               "RelativeToolTip": "Migrations\\20260106020402_initialcreate.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T17:46:13.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "20260106020402_initialcreate.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Migrations\\20260106020402_initialcreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20260106020402_initialcreate.cs",
@@ -76,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\IUserService.cs",
@@ -89,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TaskItemService.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Services\\TaskItemService.cs",
               "RelativeDocumentMoniker": "Services\\TaskItemService.cs",
@@ -102,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": ".NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
@@ -115,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -128,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CursoAPIsNET.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\obj\\Debug\\net10.0\\CursoAPIsNET.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\CursoAPIsNET.AssemblyInfo.cs",
