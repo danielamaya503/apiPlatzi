@@ -14,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddLogging();
 builder.Services.AddControllers();
 
+//--------------BASE DE DATOS EN MEMORIA------------------
 //Configurar el contexto de la base de datos
 //builder.Services.AddDbContext<AppDbContext>(option =>
 //{
@@ -21,6 +22,8 @@ builder.Services.AddControllers();
 //    option.UseInMemoryDatabase("CursoDb");
 //});
 
+
+//--------------BASE DE DATOS SQL SERVER------------------
 //Agregar el contexto de la base de datos
 //Agregaremos el servicio de DbContext para la aplicación
 //para que pueda interactuar con la base de datos SQL Server
@@ -33,6 +36,16 @@ builder.Services.AddDbContext<AppDbContext>(option => {
     //UseSqlServer es un método de extensión que configura el proveedor de base de datos SQL Server
     option.UseSqlServer(dbstring);
 });
+
+
+//--------------------Base de datos con PostgreSQL--------------------
+
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    // Configurar el contexto de la base de datos para usar PostgreSQL
+//    //UseNpgsql es un método de extensión que configura el proveedor de base de datos PostgreSQL
+//    options.UseNpgsql(
+//        builder.Configuration.GetConnectionString("PostgreSqlConnection"))
+//);
 
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
