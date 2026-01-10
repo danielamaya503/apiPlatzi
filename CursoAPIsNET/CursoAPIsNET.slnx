@@ -1,9 +1,4 @@
 <Solution>
   <Project Path="../CursoAPis.MinimalApi/CursoAPis.MinimalApi.csproj" />
-  <Project Path="CursoAPIsNET.Concretes/CursoAPIsNET.Concretes.csproj" Id="693b96dd-8e4d-450c-9c1b-21b282d58e0b" />
   <Project Path="CursoAPIsNET.csproj" />
-  <Project Path="CursoAPIsNET.Interfaces/CursoAPIsNET.Interfaces.csproj" Id="693a7dd2-9d43-4e76-9a76-d3fa31a825d2" />
-  <Project Path="CursoAPIsNET.Models/CursoAPIsNET.Models.csproj" Id="69dde5e1-7f1b-48e2-8f7f-67f7ab49cf8d" />
-  <Project Path="CursoAPIsNET.Tests/CursoAPIsNET.Tests.csproj" Id="da6074fa-902d-495b-939b-c50f52a803e3" />
-  <Project Path="CursoAPIsNET.ViewModels/CursoAPIsNET.ViewModels.csproj" Id="b7ca8b15-36ac-4ec8-b450-83bab0ea3f4c" />
 </Solution>
