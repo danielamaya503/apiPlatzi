@@ -1,5 +1,4 @@
 <Solution>
   <Project Path="../CursoAPis.MinimalApi/CursoAPis.MinimalApi.csproj" />
-  <Project Path="../ViewModels/CursoAPIsNET.ViewModels.csproj" Id="98a5b100-83c2-45bd-9894-c268ea214278" />
   <Project Path="CursoAPIsNET.csproj" />
 </Solution>
