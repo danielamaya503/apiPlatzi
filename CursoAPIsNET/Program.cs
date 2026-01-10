@@ -48,13 +48,21 @@ builder.Services.AddDbContext<AppDbContext>(option => {
 //);
 
 
+//--------------------OpenAPI / Swagger / Scalar / CORS / DI--------------------
+
+//OPENAPI es para documentar y probar APIs RESTful
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+
 //Libreria Swagger (Descargar el paquete NuGet Swashbuckle.AspNetCore)
 //agregar servicios de Swagger
-builder.Services.AddSwaggerGen(option=> { 
+//Sirve para generar documentación interactiva de la API
+builder.Services.AddSwaggerGen(option=> {
+
+    //Obtener el archivo XML generado por la documentación de comentarios del código
     var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    //Combina la ruta base de la aplicación con el nombre del archivo XML
     var xmlPath = System.IO.Path.Combine(AppContext.BaseDirectory, xmlFile);
     option.IncludeXmlComments(xmlPath);
 
@@ -80,11 +88,12 @@ builder.Services.AddSwaggerGen(option=> {
 
 
 
-//INTERFACES GRAFICAS
+//---------------------------INTERFACES GRAFICAS----------------------------------------
 //SWAGGER
 //SCALAR
 
 //CORS Policy
+//Cualquier cliente puede consumir la API como scalar o swagger
 var MyAllowOrigins = "MyAllorOrigins";
 
 //Funciona para configurar CORS
@@ -99,6 +108,8 @@ builder.Services.AddCors(options =>
             });
 });
 
+//---------------------------INYECCIÓN DE DEPENDENCIAS----------------------------------------
+
 //AddScoped es para registrar servicios con un tiempo de vida por solicitud
 //UserService implementa la interfaz IUserService
 builder.Services.AddScoped<IUserService, UserService>();
@@ -107,18 +118,20 @@ builder.Services.AddScoped<ITaskItemService, TaskItemService>();
 
 //CORS Policy
 //es para que cualquier cliente pueda consumir la API
-
 builder.Services.AddCors();
 
 
 
 var app = builder.Build();
 
-//-----------------Middleware----------------
-
+//----------------------------Middleware--------------------------------
+//es un software que se encuentra entre el sistema operativo y las aplicaciones
 //es un componente de software que se encarga de procesar las solicitudes HTTP entrantes
 
+
 // Configure the HTTP request pipeline.
+//pipeline es una serie de componentes de software que procesan las solicitudes HTTP entrantes
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
