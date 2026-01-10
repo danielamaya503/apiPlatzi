@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:services\\taskitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7CA8B15-36AC-4EC8-B450-83BAB0EA3F4C}|CursoAPIsNET.ViewModels\\CursoAPIsNET.ViewModels.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\cursoapisnet.viewmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7CA8B15-36AC-4EC8-B450-83BAB0EA3F4C}|CursoAPIsNET.ViewModels\\CursoAPIsNET.ViewModels.csproj|solutionrelative:cursoapisnet.viewmodels\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{693B96DD-8E4D-450C-9C1B-21B282D58E0B}|CursoAPIsNET.Concretes\\CursoAPIsNET.Concretes.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\cursoapisnet.concretes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{693B96DD-8E4D-450C-9C1B-21B282D58E0B}|CursoAPIsNET.Concretes\\CursoAPIsNET.Concretes.csproj|solutionrelative:cursoapisnet.concretes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA6074FA-902D-495B-939B-C50F52A803E3}|CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\cursoapisnet.tests\\cursoapisnet.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DA6074FA-902D-495B-939B-C50F52A803E3}|CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj|solutionrelative:cursoapisnet.tests\\cursoapisnet.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|c:\\users\\aleja\\onedrive\\escritorio\\gitapi\\apiplatzi\\cursoapisnet\\cursoapisnet.tests\\services\\taskitemservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B65215-D796-BDA4-747B-F506802FCC73}|CursoAPIsNET.csproj|solutionrelative:cursoapisnet.tests\\services\\taskitemservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +54,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CursoAPIsNET.Tests",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj",
+              "RelativeDocumentMoniker": "CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj",
+              "RelativeToolTip": "CursoAPIsNET.Tests\\CursoAPIsNET.Tests.csproj",
+              "ViewState": "AgIAABwAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-10T17:07:08.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskItemService.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Services\\TaskItemService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskItemService.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Services\\TaskItemService.cs",
+              "RelativeToolTip": "Services\\TaskItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:04:14.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskItemServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Tests\\Services\\TaskItemServiceTests.cs",
+              "RelativeDocumentMoniker": "CursoAPIsNET.Tests\\Services\\TaskItemServiceTests.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Tests\\Services\\TaskItemServiceTests.cs",
+              "RelativeToolTip": "CursoAPIsNET.Tests\\Services\\TaskItemServiceTests.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAEBVwMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:12:16.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T17:00:28.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.ViewModels\\Class1.cs",
               "RelativeDocumentMoniker": "CursoAPIsNET.ViewModels\\Class1.cs",
@@ -51,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Models\\Class1.cs",
               "RelativeDocumentMoniker": "CursoAPIsNET.Models\\Class1.cs",
@@ -64,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Interfaces\\Class1.cs",
               "RelativeDocumentMoniker": "CursoAPIsNET.Interfaces\\Class1.cs",
@@ -77,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\aleja\\OneDrive\\Escritorio\\gitApi\\apiPlatzi\\CursoAPIsNET\\CursoAPIsNET.Concretes\\Class1.cs",
               "RelativeDocumentMoniker": "CursoAPIsNET.Concretes\\Class1.cs",

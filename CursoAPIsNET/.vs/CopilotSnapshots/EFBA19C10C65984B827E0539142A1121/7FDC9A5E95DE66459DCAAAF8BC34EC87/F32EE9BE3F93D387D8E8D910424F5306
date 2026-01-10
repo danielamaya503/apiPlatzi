@@ -1,0 +1,202 @@
+﻿using CursoAPIsNET.Data;
+using CursoAPIsNET.Models;
+using CursoAPIsNET.Services;
+using Microsoft.EntityFrameworkCore;
+using NUnit.Framework;
+
+namespace CursoAPIsNET.Tests.Services;
+
+[TestFixture]
+public class TaskItemServiceTests
+{
+    private AppDbContext _context = null!;
+    private TaskItemService _service = null!;
+
+    [SetUp]
+    public void Setup()
+    {
+        var options = new DbContextOptionsBuilder<AppDbContext>()
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
+
+        _context = new AppDbContext(options);
+        _service = new TaskItemService(_context);
+    }
+
+    [TearDown]
+    public void TearDown()
+    {
+        _context.Database.EnsureDeleted();
+        _context.Dispose();
+    }
+
+    [Test]
+    public async Task CreateAsync_DebeCrearTaskItemYRetornarla()
+    {
+        var newTaskItem = new TaskItem
+        {
+            Title = "Nueva tarea de prueba",
+            IsCompleted = false,
+            UserId = 1
+        };
+
+        var result = await _service.CreateAsync(newTaskItem);
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result.Title, Is.EqualTo("Nueva tarea de prueba"));
+        Assert.That(result.IsCompleted, Is.False);
+        Assert.That(result.Id, Is.GreaterThan(0));
+
+        var taskInDb = await _context.TaskItems.FindAsync(result.Id);
+        Assert.That(taskInDb, Is.Not.Null);
+        Assert.That(taskInDb!.Title, Is.EqualTo("Nueva tarea de prueba"));
+    }
+
+    [Test]
+    public async Task GetTaskItemsAsync_DebeRetornarTodasLasTareas()
+    {
+        await _context.TaskItems.AddRangeAsync(
+            new TaskItem { Title = "Tarea 1", IsCompleted = false, UserId = 1 },
+            new TaskItem { Title = "Tarea 2", IsCompleted = true, UserId = 1 },
+            new TaskItem { Title = "Tarea 3", IsCompleted = false, UserId = 2 }
+        );
+        await _context.SaveChangesAsync();
+
+        var result = await _service.GetTaskItemsAsync();
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result.Count(), Is.EqualTo(3));
+    }
+
+    [Test]
+    public async Task GetTaskItemsAsync_DebeRetornarListaVaciaSiNoHayTareas()
+    {
+        var result = await _service.GetTaskItemsAsync();
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result, Is.Empty);
+    }
+
+    [Test]
+    public async Task GetByTaskItemAsync_DebeRetornarTaskItemCuandoExiste()
+    {
+        var taskItem = new TaskItem
+        {
+            Title = "Tarea específica",
+            IsCompleted = false,
+            UserId = 1
+        };
+        _context.TaskItems.Add(taskItem);
+        await _context.SaveChangesAsync();
+
+        var result = await _service.GetByTaskItemAsync(taskItem.Id);
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result!.Id, Is.EqualTo(taskItem.Id));
+        Assert.That(result.Title, Is.EqualTo("Tarea específica"));
+    }
+
+    [Test]
+    public async Task GetByTaskItemAsync_DebeRetornarNullCuandoNoExiste()
+    {
+        var idInexistente = 999;
+
+        var result = await _service.GetByTaskItemAsync(idInexistente);
+
+        Assert.That(result, Is.Null);
+    }
+
+    [Test]
+    public async Task UpdateAsync_DebeActualizarTaskItemExistente()
+    {
+        var taskItem = new TaskItem
+        {
+            Title = "Tarea original",
+            IsCompleted = false,
+            UserId = 1
+        };
+        _context.TaskItems.Add(taskItem);
+        await _context.SaveChangesAsync();
+
+        _context.Entry(taskItem).State = EntityState.Detached;
+
+        taskItem.Title = "Tarea actualizada";
+        taskItem.IsCompleted = true;
+
+        var result = await _service.UpdateAsync(taskItem);
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result.Title, Is.EqualTo("Tarea actualizada"));
+        Assert.That(result.IsCompleted, Is.True);
+
+        var taskInDb = await _context.TaskItems.FindAsync(taskItem.Id);
+        Assert.That(taskInDb, Is.Not.Null);
+        Assert.That(taskInDb!.Title, Is.EqualTo("Tarea actualizada"));
+        Assert.That(taskInDb.IsCompleted, Is.True);
+    }
+
+    [Test]
+    public async Task DeleteAsync_DebeEliminarTaskItemCuandoExiste()
+    {
+        var taskItem = new TaskItem
+        {
+            Title = "Tarea a eliminar",
+            IsCompleted = false,
+            UserId = 1
+        };
+        _context.TaskItems.Add(taskItem);
+        await _context.SaveChangesAsync();
+        var taskId = taskItem.Id;
+
+        var result = await _service.DeleteAsync(taskId);
+
+        Assert.That(result, Is.Not.Null);
+        Assert.That(result!.Id, Is.EqualTo(taskId));
+        Assert.That(result.Title, Is.EqualTo("Tarea a eliminar"));
+
+        var taskInDb = await _context.TaskItems.FindAsync(taskId);
+        Assert.That(taskInDb, Is.Null);
+    }
+
+    [Test]
+    public void DeleteAsync_DebeLanzarExcepcionCuandoNoExiste()
+    {
+        var idInexistente = 999;
+
+        var ex = Assert.ThrowsAsync<Exception>(async () => await _service.DeleteAsync(idInexistente));
+        Assert.That(ex!.Message, Is.EqualTo("TaskItem not found"));
+    }
+
+    [Test]
+    public async Task CreateAsync_DebeIncrementarElContadorDeTaskItems()
+    {
+        var taskItem1 = new TaskItem { Title = "Tarea 1", IsCompleted = false, UserId = 1 };
+        var taskItem2 = new TaskItem { Title = "Tarea 2", IsCompleted = false, UserId = 1 };
+
+        await _service.CreateAsync(taskItem1);
+        await _service.CreateAsync(taskItem2);
+
+        var allTasks = await _service.GetTaskItemsAsync();
+        Assert.That(allTasks.Count(), Is.EqualTo(2));
+    }
+
+    [Test]
+    public async Task GetTaskItemsAsync_NoDebeRastrearEntidades()
+    {
+        await _context.TaskItems.AddAsync(new TaskItem
+        {
+            Title = "Tarea sin rastrear",
+            IsCompleted = false,
+            UserId = 1
+        });
+        await _context.SaveChangesAsync();
+
+        var result = await _service.GetTaskItemsAsync();
+
+        Assert.That(result, Is.Not.Null);
+        var firstTask = result.First();
+        var trackedEntity = _context.ChangeTracker.Entries<TaskItem>()
+            .FirstOrDefault(e => e.Entity.Id == firstTask.Id);
+        Assert.That(trackedEntity, Is.Null);
+    }
+}
