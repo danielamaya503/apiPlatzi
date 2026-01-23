@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CursoLinqCShar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+325f9daf29056b243e55bfc426fef56bc5065c26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917867b402838971b5ca31d7fde8b6c83ace57e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CursoLinqCShar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CursoLinqCShar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
