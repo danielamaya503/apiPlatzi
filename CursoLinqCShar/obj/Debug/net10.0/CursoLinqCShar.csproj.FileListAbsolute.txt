@@ -1,0 +1,15 @@
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\bin\Debug\net10.0\CursoLinqCShar.exe
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\bin\Debug\net10.0\CursoLinqCShar.deps.json
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\bin\Debug\net10.0\CursoLinqCShar.runtimeconfig.json
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\bin\Debug\net10.0\CursoLinqCShar.dll
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\bin\Debug\net10.0\CursoLinqCShar.pdb
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.AssemblyInfoInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.AssemblyInfo.cs
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.csproj.CoreCompileInputs.cache
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.sourcelink.json
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.dll
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\refint\CursoLinqCShar.dll
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.pdb
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\CursoLinqCShar.genruntimeconfig.cache
+C:\Users\aleja\OneDrive\Escritorio\gitApi\apiPlatzi\CursoLinqCShar\obj\Debug\net10.0\ref\CursoLinqCShar.dll
