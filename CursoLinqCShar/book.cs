@@ -6,7 +6,7 @@ namespace CursoLinqCShar
 {
     public class book
     {
-        public string title { get; set; }
+        public string Title { get; set; }
         public int Pagecount { get; set; }
         public string Status { get; set; }
         public DateTime PublishedDate { get; set; }
